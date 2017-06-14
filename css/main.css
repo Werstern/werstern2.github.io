@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #393939;
+    z-index: -5;
+}
+.header {
+    height: 80px;
+    background-color: #2a2a2a;
+    z-index: 5;
+}
+.header > p {
+    font-size: 28px;
+    color: rgb(168, 149, 116);
+    line-height: 80px;
+    text-align: center;
+}
+.container {
+
+}
+.input {
+    margin-left: 20px;
+    width: 35%;
+    height: 90%;
+}
+.input input[type=text] {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    width: 70%;
+    background-color: #2e2e2e;
+    outline: none;
+    border-color: rgb(168, 149, 116);
+    color: rgb(168, 149, 116);
+    font-size: 24px;
+    float: left;
+}
+.audio {
+    float: right;
+    margin-top: 75px;
+    margin-right: 100px;
+}
+.track-list {
+    margin-left: 20px;
+    border: 1px dashed rgb(168, 149, 116);
+    padding: 5px;
+    width: 70%;
+}
+.track-list p {
+    color: rgb(168, 149, 116);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.list li  {
+    color: rgb(168, 149, 116);
+    margin-bottom: 3px;
+    font-size: 18px;
+    list-style: none;
+    cursor: default;
+}
+.box:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.active {
+    color: green;
+}
+
